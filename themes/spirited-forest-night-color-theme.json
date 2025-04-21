@@ -1,0 +1,73 @@
+{
+    "name": "Spirited Forest Night",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#121917",
+      "editor.foreground": "#EAE6DA",
+      "editorCursor.foreground": "#FFDB7C",
+      "editor.lineHighlightBackground": "#1E2624",
+      "editorLineNumber.foreground": "#4F5A52",
+      "editor.selectionBackground": "#2E3B37",
+      "editor.inactiveSelectionBackground": "#26322F60",
+      "editorIndentGuide.background1": "#26312D",
+      "editorIndentGuide.activeBackground1": "#3A4843"
+    },
+    "tokenColors": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "foreground": "#6C7A70",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["string", "constant.other.symbol"],
+        "settings": {
+          "foreground": "#A5D6B2"
+        }
+      },
+      {
+        "scope": ["constant.numeric", "constant.language"],
+        "settings": {
+          "foreground": "#D7B3E5"
+        }
+      },
+      {
+        "scope": ["keyword", "storage.type", "storage.modifier"],
+        "settings": {
+          "foreground": "#90B7E0"
+        }
+      },
+      {
+        "scope": ["entity.name.function", "support.function"],
+        "settings": {
+          "foreground": "#E6B89C"
+        }
+      },
+      {
+        "scope": ["variable", "identifier", "meta.definition.variable.name"],
+        "settings": {
+          "foreground": "#EAE6DA"
+        }
+      },
+      {
+        "scope": ["meta.brace", "punctuation", "punctuation.terminator"],
+        "settings": {
+          "foreground": "#B4BDB5"
+        }
+      },
+      {
+        "scope": ["entity.name.type", "support.type", "storage.type.class"],
+        "settings": {
+          "foreground": "#A0D3E8"
+        }
+      },
+      {
+        "scope": ["invalid", "invalid.illegal"],
+        "settings": {
+          "foreground": "#FFFFFF",
+          "background": "#D95468"
+        }
+      }
+    ]
+  }
