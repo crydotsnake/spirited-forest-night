@@ -2,29 +2,29 @@
     "name": "spirited-forest-night",
     "displayName": "Spirited Forest Night",
     "description": "A dreamlike, Ghibli-inspired dark theme with soft, natural colours for relaxed and focused code sessions.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "crydotsnake",
     "engines": {
-      "vscode": "^1.85.0"
+        "vscode": "^1.85.0"
     },
     "categories": [
-      "Themes"
+        "Themes"
     ],
     "contributes": {
-      "themes": [
-        {
-          "label": "Spirited Forest Night",
-          "uiTheme": "vs-dark",
-          "path": "./themes/Spirited-Forest-Night-color-theme.json"
-        }
-      ]
+        "themes": [
+            {
+                "label": "Spirited Forest Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Spirited-Forest-Night-color-theme.json"
+            }
+        ]
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/crydotsnake/spirited-forest-night"
+        "type": "git",
+        "url": "https://github.com/crydotsnake/spirited-forest-night"
     },
     "homepage": "https://github.com/crydotsnake/spirited-forest-night",
     "bugs": {
-      "url": "https://github.com/crydotsnake/spirited-forest-night/issues"
+        "url": "https://github.com/crydotsnake/spirited-forest-night/issues"
     }
-  }
+}
